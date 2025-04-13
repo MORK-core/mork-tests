@@ -1,0 +1,20 @@
+[package]
+name = "mork-tests"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "test_hello1"
+path = "src/bin/test_hello1.rs"
+
+[[bin]]
+name = "test_hello2"
+path = "src/bin/test_hello2.rs"
+
+[dependencies]
+mork-common = { path = "../mork-common" }
+mork-user-lib = { path = "../mork-user-lib" }
+log = "0.4"
+
+[profile.release]
+lto = true
