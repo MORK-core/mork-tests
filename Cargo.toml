@@ -4,12 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [[bin]]
-name = "test_hello1"
-path = "src/bin/test_hello1.rs"
+name = "test_hello"
+path = "src/bin/test_hello.rs"
 
 [[bin]]
-name = "test_hello2"
-path = "src/bin/test_hello2.rs"
+name = "test_thread_create"
+path = "src/bin/test_thread_create.rs"
 
 [dependencies]
 mork-common = { path = "../mork-common" }
