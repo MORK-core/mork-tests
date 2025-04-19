@@ -8,6 +8,10 @@ name = "test_hello"
 path = "src/bin/test_hello.rs"
 
 [[bin]]
+name = "test_ipc_buffer"
+path = "src/bin/test_ipc_buffer.rs"
+
+[[bin]]
 name = "test_thread_create"
 path = "src/bin/test_thread_create.rs"
 
